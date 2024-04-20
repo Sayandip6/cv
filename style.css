@@ -1,0 +1,77 @@
+body {
+    font-family: Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #255371;
+    color: #333;
+}
+
+header {
+    background-color: #2a2929;
+    color: #b8f0ff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 60px;
+    font-family: brush script mt , cursive;
+    color: aqua;
+    text-align: left;
+    text-shadow: #000454 2px 2px;
+}
+
+header h3 {
+    margin: 0;
+    font-size: 32px;
+    
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+section {
+    background-color: #bcfdf9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 36px;
+    color: #2ecc71;
+}
+
+.education-item, .project {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #2a2929;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.project{
+    overflow: hidden;
+}
+
+.project img  {
+    transition: transform 1s;
+
+}
+
+ 
+.project img :hover {
+    cursor: pointer;
+   transform: scale(1.2);
+
+}
